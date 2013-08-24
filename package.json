@@ -1,7 +1,7 @@
 {
   "name": "multi-redis",
   "description": "Use a hashring to manage distributing load to multiple redis clients",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Jarrett Cruger <jcrugzz@gmail.com>",
   "repository": {
     "url": "git://github.com/jcrugzz/multi-redis.git"
