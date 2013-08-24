@@ -50,7 +50,7 @@ client.set(key, 'O hai there', function (err) {
 
 Instantiates a multiRedis instance that sets up the array of redis clients
 
-### `multRedis.client(key)`
+### `var client = multRedis.client(key)`
 
 Retrieves the correct client based on key given using the consistent hashing of
 [`node-hashring`][hashring]
