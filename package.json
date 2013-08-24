@@ -1,0 +1,24 @@
+{
+  "name": "multi-redis",
+  "description": "Use a hashring to manage distributing load to multiple redis clients",
+  "version": "0.1.0",
+  "author": "Jarrett Cruger <jcrugzz@gmail.com>",
+  "repository": {
+    "url": "git://github.com/jcrugzz/multi-redis.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "redis": "~0.8.4",
+    "hashring": "~1.0.1"
+  },
+  "devDependencies": {
+    "tape": "~1.0.2"
+  },
+  "license": "MIT"
+}
