@@ -1,5 +1,7 @@
 # multi-redis
 
+[![build status](https://secure.travis-ci.org/jcrugzz/multi-redis.png)](http://travis-ci.org/jcrugzz/multi-redis)
+
 A simple wrapper around the [`node_redis`][redis] and [`node-hashring`][hashring]
 modules to allow for an easy way to use consistent hashing to distribute to
 multiple redises.
