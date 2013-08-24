@@ -11,7 +11,7 @@
     "test": "tape test/*.js"
   },
   "engines": {
-    "node": "0.10.x"
+    "node": "0.10.x || 0.8.x"
   },
   "dependencies": {
     "redis": "~0.8.4",
