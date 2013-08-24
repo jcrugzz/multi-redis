@@ -60,6 +60,13 @@ Retrieves the correct client based on key given using the consistent hashing of
 Calls `redis.end()` for all of the underlying redis clients instantiated by the
 constructor
 
+### `multiRedis.on('error', function (err) { /* Handle me however you please */ })`
+
+This is how you handle the errors that are emitted from the underlying
+[`redis`][redis]. Useful for logging purposes as the [`node_redis`][redis]
+library handles reconnections for you but stil emits `ECONNREFUSED` errors when
+the server is not reachable.
+
 ## License
 
 MIT
